@@ -1,23 +1,20 @@
-
-  <!-- FIN HEADER
-	============================================ -->
+<?php get_header();?>
 
   <!-- Intro Section -->
   <div class="hero-section">
     <div class="hero-content">
       <div class="hero-center">
-        <img src="wp-content/themes/projet-labs/img/big-logo.png" alt="">
+        <img src="<?php echo get_template_directory_uri()?>/img/big-logo.png" alt="">
         <p>Get your freebie template now!</p>
       </div>
     </div>
     <!-- slider -->
     <div id="hero-slider" class="owl-carousel">
-      <div class="item  hero-item" data-bg="wp-content/themes/projet-labs/img/01.jpg"></div>
-      <div class="item  hero-item" data-bg="wp-content/themes/projet-labs/img/02.jpg"></div>
+      <div class="item  hero-item" data-bg="<?php echo get_template_directory_uri()?>/img/01.jpg"></div>
+      <div class="item  hero-item" data-bg="<?php echo get_template_directory_uri()?>/img/02.jpg"></div>
     </div>
   </div>
   <!-- Intro Section -->
-
 
   <!-- About section -->
   <div class="about-section">
@@ -83,7 +80,7 @@
         <div class="intro-video">
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
-              <img src="wp-content/themes/projet-labs/img/video.jpg" alt="">
+              <img src="<?php echo get_template_directory_uri()?>/img/video.jpg" alt="">
               <a href="https://www.youtube.com/watch?v=JgHfx2v9zOU" class="video-popup">
                 <i class="fa fa-play"></i>
               </a>
@@ -112,7 +109,7 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus consequa.</p>
               <div class="client-info">
                 <div class="avatar">
-                  <img src="wp-content/themes/projet-labs/img/avatar/01.jpg" alt="">
+                  <img src="<?php echo get_template_directory_uri()?>/img/avatar/01.jpg" alt="">
                 </div>
                 <div class="client-name">
                   <h2>Michael Smith</h2>
@@ -126,7 +123,7 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus consequa.</p>
               <div class="client-info">
                 <div class="avatar">
-                  <img src="wp-content/themes/projet-labs/img/avatar/02.jpg" alt="">
+                  <img src="<?php echo get_template_directory_uri()?>/img/avatar/02.jpg" alt="">
                 </div>
                 <div class="client-name">
                   <h2>Michael Smith</h2>
@@ -140,7 +137,7 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus consequa.</p>
               <div class="client-info">
                 <div class="avatar">
-                  <img src="wp-content/themes/projet-labs/img/avatar/01.jpg" alt="">
+                  <img src="<?php echo get_template_directory_uri()?>/img/avatar/01.jpg" alt="">
                 </div>
                 <div class="client-name">
                   <h2>Michael Smith</h2>
@@ -154,7 +151,7 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus consequa.</p>
               <div class="client-info">
                 <div class="avatar">
-                  <img src="wp-content/themes/projet-labs/img/avatar/02.jpg" alt="">
+                  <img src="<?php echo get_template_directory_uri()?>/img/avatar/02.jpg" alt="">
                 </div>
                 <div class="client-name">
                   <h2>Michael Smith</h2>
@@ -168,7 +165,7 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus consequa.</p>
               <div class="client-info">
                 <div class="avatar">
-                  <img src="wp-content/themes/projet-labs/img/avatar/01.jpg" alt="">
+                  <img src="<?php echo get_template_directory_uri()?>/img/avatar/01.jpg" alt="">
                 </div>
                 <div class="client-name">
                   <h2>Michael Smith</h2>
@@ -182,7 +179,7 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus consequa.</p>
               <div class="client-info">
                 <div class="avatar">
-                  <img src="wp-content/themes/projet-labs/img/avatar/02.jpg" alt="">
+                  <img src="<?php echo get_template_directory_uri()?>/img/avatar/02.jpg" alt="">
                 </div>
                 <div class="client-name">
                   <h2>Michael Smith</h2>
@@ -333,7 +330,7 @@
         <!-- single member -->
         <div class="col-sm-4">
           <div class="member">
-            <img src="wp-content/themes/projet-labs/img/team/1.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri()?>/img/team/1.jpg" alt="">
             <h2>Christinne Williams</h2>
             <h3>Project Manager</h3>
           </div>
@@ -341,7 +338,7 @@
         <!-- single member -->
         <div class="col-sm-4">
           <div class="member">
-            <img src="wp-content/themes/projet-labs/img/team/2.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri()?>/img/team/2.jpg" alt="">
             <h2>Christinne Williams</h2>
             <h3>Junior developer</h3>
           </div>
@@ -349,7 +346,7 @@
         <!-- single member -->
         <div class="col-sm-4">
           <div class="member">
-            <img src="wp-content/themes/projet-labs/img/team/3.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri()?>/img/team/3.jpg" alt="">
             <h2>Christinne Williams</h2>
             <h3>Digital designer</h3>
           </div>
@@ -417,24 +414,4 @@
   </div>
   <!-- Contact section end-->
 
-
-  <!-- Footer section -->
-  <footer class="footer-section">
-    <h2>2017 All rights reserved. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></h2>
-  </footer>
-  <!-- Footer section end -->
-  <?php wp_footer();?>
-
-
-
-
-  <!--====== Javascripts & Jquery ======-->
-  <!-- <script src="wp-content/themes/projet-labs/js/jquery-2.1.4.min.js"></script>
-  <script src="wp-content/themes/projet-labs/js/bootstrap.min.js"></script>
-  <script src="wp-content/themes/projet-labs/js/magnific-popup.min.js"></script>
-  <script src="wp-content/themes/projet-labs/js/owl.carousel.min.js"></script>
-  <script src="wp-content/themes/projet-labs/js/circle-progress.min.js"></script>
-  <script src="wp-content/themes/projet-labs/js/main.js"></script> -->
-</body>
-
-</html>
+  <?php get_footer();?>
