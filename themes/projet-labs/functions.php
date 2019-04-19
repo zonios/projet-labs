@@ -3,3 +3,4 @@
 
   require_once(INCLUDE_DIR . "/enqueue-scripts.php");
   require_once(INCLUDE_DIR . "/menu.php");
+  require_once(INCLUDE_DIR . "/customize.php");

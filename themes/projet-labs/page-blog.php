@@ -1,20 +1,6 @@
 <?php get_header(); ?>
 
-	<!-- Page header -->
-	<div class="page-top-section">
-		<div class="overlay"></div>
-		<div class="container text-right">
-			<div class="page-info">
-				<h2>Blog</h2>
-				<div class="page-links">
-					<a href="#">Home</a>
-					<span>Blog</span>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Page header end-->
-
+<?php get_template_part("templates/page-header");?>
 
 	<!-- page section -->
 	<div class="page-section spad">

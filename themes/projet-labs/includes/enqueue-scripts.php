@@ -13,8 +13,9 @@
     wp_enqueue_script('magnificpopupjs', get_template_directory_uri() . '/js/magnific-popup.min.js', [],  null, true);
     wp_enqueue_script('owlcarousel', get_template_directory_uri() . '/js/owl.carousel.min.js', null, [], true);
     wp_enqueue_script('circleprogress', get_template_directory_uri() . '/js/circle-progress.min.js', [], null, true);
+    wp_enqueue_script('mapapis',"https://maps.googleapis.com/maps/api/js?key=AIzaSyB0YyDTa0qqOjIerob2VTIwo_XVMhrruxo", [], null, true);
+    wp_enqueue_script('map', get_template_directory_uri() . '/js/map.js', [], null, true);
     wp_enqueue_script('mainjs', get_template_directory_uri() . '/js/main.js', [], null, true);
-    wp_enqueue_script('mapjs', get_template_directory_uri() . '/js/map.js', [], null, true);
     
   }
   add_action('wp_enqueue_scripts','ajout_css_js');

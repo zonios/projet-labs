@@ -1,33 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 
 <head>
   <title>Labs - Design Studio</title>
-  <meta charset="UTF-8">
-  <meta name="description" content="Labs - Design Studio">
-  <meta name="keywords" content="lab, onepage, creative, html">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset='UTF-8'>
+  <meta name='description' content='Labs - Design Studio'>
+  <meta name='keywords' content='lab, onepage, creative, html'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
 
 </head>
 <?php wp_head() ?>
 
 <body>
   <!-- Page Preloder -->
-  <div id="preloder">
-    <div class="loader">
-      <img src="<?php echo get_template_directory_uri()?>/img/logo.png" alt="">
+  <div id='preloder'>
+    <div class='loader'>
+      <img src='<?= get_theme_mod('setting_main_logo'); ?>' alt=''>
       <h2>Loading.....</h2>
     </div>
   </div>
 
 
   <!-- Header section -->
-  <header class="header-section">
-    <div class="logo">
-      <img src="<?php echo get_template_directory_uri()?>/img/logo.png" alt=""><!-- Logo -->
+  <header class='header-section'>
+    <div class='logo'>
+    <!-- 'watch?v=','https://www.youtube.com/watch?v=VSqkL31w69k',11 -->
+      <?php 
+      $test = strpos('https://www.youtube.com/watch?v=VSqkL31w69k','watch?v=');
+      $test = substr('https://www.youtube.com/watch?v=VSqkL31w69k',$test+8,11); 
+      echo $test;
+      ?>
+      <a href='<?php echo get_home_url(); ?>'>
+        <img src='<?= get_theme_mod('setting_main_logo'); ?>' alt=''>
+      </a>
     </div>
     <!-- Navigation -->
-    <div class="responsive"><i class="fa fa-bars"></i></div>
+    <div class='responsive'><i class='fa fa-bars'></i></div>
     <nav>
       <?php
         wp_nav_menu([
