@@ -1,3 +1,4 @@
+  
   <!-- About section -->
   <div class="about-section">
     <div class="overlay"></div>
@@ -61,9 +62,15 @@
         <!-- popup video -->
         <div class="intro-video">
           <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <img src="<?php echo get_template_directory_uri()?>/img/video.jpg" alt="">
-              <a href="https://www.youtube.com/watch?v=JgHfx2v9zOU" class="video-popup">
+            <div class="col-md-8 col-md-offset-2 text-center">
+              <?php 
+              $vidimg = get_theme_mod('setting_ytb_video');
+              $cpt = strpos($vidimg, 'watch?v=');
+              $vidimg = substr($vidimg, $cpt+8, 11);
+              $vidimg = "https://img.youtube.com/vi/" . $vidimg . "/hqdefault.jpg";
+              ?>
+              <img src="<?php echo $vidimg?>" alt="">
+              <a href="<?= get_theme_mod('setting_ytb_video'); ?>" class="video-popup">
                 <i class="fa fa-play"></i>
               </a>
             </div>

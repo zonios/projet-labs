@@ -25,11 +25,6 @@
   <header class='header-section'>
     <div class='logo'>
     <!-- 'watch?v=','https://www.youtube.com/watch?v=VSqkL31w69k',11 -->
-      <?php 
-      $test = strpos('https://www.youtube.com/watch?v=VSqkL31w69k','watch?v=');
-      $test = substr('https://www.youtube.com/watch?v=VSqkL31w69k',$test+8,11); 
-      echo $test;
-      ?>
       <a href='<?php echo get_home_url(); ?>'>
         <img src='<?= get_theme_mod('setting_main_logo'); ?>' alt=''>
       </a>
