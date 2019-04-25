@@ -34,7 +34,8 @@ function register_post_type_service(){
     'exclude_from_search' => false,
     'publicly_queryable'  => true,
     'capability_type'     => 'page',
-    'rewrite' => ['slug' => 'services']
+    'rewrite' => ['slug' => 'services'],
+    'menu_icon' => 'dashicons-book'
   ];
  
   // Registering your Custom Post Type

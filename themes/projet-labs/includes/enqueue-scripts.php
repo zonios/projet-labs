@@ -18,5 +18,12 @@
     wp_enqueue_script('mainjs', get_template_directory_uri() . '/js/main.js', [], null, true);
     
   }
+
   add_action('wp_enqueue_scripts','ajout_css_js');
+
+  function ajout_css_backend(){
+    wp_enqueue_style('flaticonn', get_template_directory_uri() . "/css/flaticon.css");
+  }
+
+  add_action('admin_enqueue_scripts','ajout_css_backend');
 ?>

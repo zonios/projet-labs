@@ -11,7 +11,8 @@
             <!-- single testimonial -->
             <div class="testimonial">
               <span>‘​‌‘​‌</span>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus consequa.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id,
+                suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus consequa.</p>
               <div class="client-info">
                 <div class="avatar">
                   <img src="<?php echo get_template_directory_uri()?>/img/avatar/01.jpg" alt="">
@@ -25,21 +26,8 @@
             <!-- single testimonial -->
             <div class="testimonial">
               <span>‘​‌‘​‌</span>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus consequa.</p>
-              <div class="client-info">
-                <div class="avatar">
-                  <img src="<?php echo get_template_directory_uri()?>/img/avatar/02.jpg" alt="">
-                </div>
-                <div class="client-name">
-                  <h2>Michael Smith</h2>
-                  <p>CEO Company</p>
-                </div>
-              </div>
-            </div>
-            <!-- single testimonial -->
-            <div class="testimonial">
-              <span>‘​‌‘​‌</span>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus consequa.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id,
+                suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus consequa.</p>
               <div class="client-info">
                 <div class="avatar">
                   <img src="<?php echo get_template_directory_uri()?>/img/avatar/01.jpg" alt="">
@@ -53,21 +41,8 @@
             <!-- single testimonial -->
             <div class="testimonial">
               <span>‘​‌‘​‌</span>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus consequa.</p>
-              <div class="client-info">
-                <div class="avatar">
-                  <img src="<?php echo get_template_directory_uri()?>/img/avatar/02.jpg" alt="">
-                </div>
-                <div class="client-name">
-                  <h2>Michael Smith</h2>
-                  <p>CEO Company</p>
-                </div>
-              </div>
-            </div>
-            <!-- single testimonial -->
-            <div class="testimonial">
-              <span>‘​‌‘​‌</span>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus consequa.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id,
+                suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus consequa.</p>
               <div class="client-info">
                 <div class="avatar">
                   <img src="<?php echo get_template_directory_uri()?>/img/avatar/01.jpg" alt="">
@@ -81,10 +56,11 @@
             <!-- single testimonial -->
             <div class="testimonial">
               <span>‘​‌‘​‌</span>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus consequa.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id,
+                suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus consequa.</p>
               <div class="client-info">
                 <div class="avatar">
-                  <img src="<?php echo get_template_directory_uri()?>/img/avatar/02.jpg" alt="">
+                  <img src="<?php echo get_template_directory_uri()?>/img/avatar/01.jpg" alt="">
                 </div>
                 <div class="client-name">
                   <h2>Michael Smith</h2>
