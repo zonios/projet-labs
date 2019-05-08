@@ -15,7 +15,7 @@ function register_post_type_service(){
     'search_items'        => __( 'Search Service' ),
   ];
  
-// Set other options for Custom Post Type
+  // Set other options for Custom Post Type
  
   $args = [
     'label'               => __( 'services' ),
