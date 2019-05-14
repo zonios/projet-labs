@@ -1054,6 +1054,7 @@ ul {
 --------------------------*/
 .post-item {
 	margin-bottom: 90px;
+	overflow: hidden;
 }
 
 .post-thumbnail {
@@ -1748,4 +1749,14 @@ ul {
 	.buttons button {
 		margin-bottom: 20px;
 	}
+}
+
+span.page-numbers.current{
+	display: inline-block;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  color: #0b1033;
+  padding: 6px 10px;
+  margin-right: 5px;
+	background-color: #2be6ab;
 }

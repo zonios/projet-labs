@@ -7,6 +7,7 @@
     wp_enqueue_style('magnificpopup', get_template_directory_uri() . "/css/magnific-popup.css");
     wp_enqueue_style('owlcarousel', get_template_directory_uri() . "/css/owl.carousel.css");
     wp_enqueue_style('styleperso', get_template_directory_uri() . "/css/style.css");
+    wp_enqueue_style('styleperso2', get_template_directory_uri() . "/css/style2.css");
 
     wp_enqueue_script('jqueryperso', get_template_directory_uri() . '/js/jquery-2.1.4.min.js', [], null, true);
     wp_enqueue_script('bootstrapminjs', get_template_directory_uri() . '/js/bootstrap.min.js', [],  null, true);

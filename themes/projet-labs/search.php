@@ -15,13 +15,13 @@ get_header();
 <div class="page-section spad">
   <div class="container">
     <div class="row">
-      <div class="col-md-8 col-sm-7 blog-posts" style="margin-left: 16.666666%;">
+      <div class="col-md-8 col-sm-7 blog-posts">
 
         <?php while (have_posts()): the_post(); ?>
         <!-- Post item -->
         <div class="post-item">
           <div class="post-thumbnail">
-            <img src="<?= get_the_post_thumbnail_url(); ?>" alt="">
+            <img src="<?= get_the_post_thumbnail_url(); ?>" alt="" style="height:24rem;">
             <div class="post-date">
               <h2>03</h2>
               <h3>Nov 2017</h3>
@@ -42,7 +42,12 @@ get_header();
         <?php endwhile; ?>
 
       </div>
-      
+      <div class="col-md-4 col-sm-5 sidebar">
+        <!-- Single widget -->
+        <div class="widget-item">
+          <?php get_search_form(); ?>
+        </div>
+      </div>
     </div>
   </div>
 </div>
